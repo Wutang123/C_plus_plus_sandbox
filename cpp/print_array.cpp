@@ -8,7 +8,6 @@ void print_array(int myArray[5], int array_length)
     }
 }
 
-
 void print_array_v2(int* myArray, int array_length)
 {
     for (int i=0; i<array_length; i++)
@@ -17,7 +16,6 @@ void print_array_v2(int* myArray, int array_length)
     }
 
 }
-
 
 int main(void)
 {

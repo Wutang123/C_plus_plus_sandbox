@@ -9,17 +9,17 @@ int main(void)
     std::cout << "\n";
 
     // Input
-    // int x;
-    // std::cout << "Input value: ";
-    // std::cin >> x;
-    // std::cout << "Value inputted is: " << x << std::endl;
-    // std::cout << "\n";
+    int x;
+    std::cout << "Input value: ";
+    std::cin >> x;
+    std::cout << "Value inputted is: " << x << std::endl;
+    std::cout << "\n";
 
-    // std::string myFullName = "HELP";
-    // std::cout << "Input your full name: ";
-    // getline(std::cin, myFullName); // Use getline() to read in entire string. std::cin will not get " " characters
-    // std::cout << "Your full name is: " << myFullName << std::endl;
-    // std::cout << "\n";
+    std::string myFullName = "HELP";
+    std::cout << "Input your full name: ";
+    getline(std::cin, myFullName); // Use getline() to read in entire string. std::cin will not get " " characters
+    std::cout << "Your full name is: " << myFullName << std::endl;
+    std::cout << "\n";
 
     // Structs
     struct Profile {
@@ -42,7 +42,6 @@ int main(void)
 
     reference_original = "World"; 
     *ptr_original      = "Welcome"; 
-    // backup             = "Earth"; 
 
     std::cout << "original:           " << original           << ", memory address: " << &original << std::endl;
     std::cout << "reference_original: " << reference_original << ", memory address: " << &reference_original << std::endl;
